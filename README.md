@@ -15,4 +15,9 @@ chmod +x install.sh
 
 # How to use
 
+### Available Flags
+
+- -h : help
+- -bd : brain dump here
+
 ## this is still a work in progress

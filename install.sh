@@ -8,8 +8,8 @@ sudo chmod +x ~/idea.sh
 # Create an alias in the user's shell configuration file
 shell_config_file=""
 if [ -f "$HOME/.zshrc" ]; then
-elif [ -f "$HOME/.bashrc" ]; then
 	shell_config_file="$HOME/.zshrc"
+elif [ -f "$HOME/.bashrc" ]; then
 	shell_config_file="$HOME/.bashrc"
 elif [ -f "$HOME/.bash_profile" ]; then
 	shell_config_file="$HOME/.bash_profile"
