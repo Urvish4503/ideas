@@ -101,7 +101,7 @@ while [[ "$#" -gt 0 ]]; do
 				exit 0
 			else
 				project=$(basename "$result")
-				quick_note_file="$DEFAULT_PATH_IDEA/$project/quick_notes.md"
+				quick_note_file="$DEFAULT_PATH_IDEA/$project/$project.md"
 
 				if [ -n "$quick_note_file" ]; then
 					if [ -f "$quick_note_file" ]; then
